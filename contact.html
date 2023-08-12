@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head id="meta">
+    <meta name="description" content="The official contact page of Nintendo America">
+    <title>Contact Us | Nintendo</title>
+
+    <!-- jQuery link This must be placed before the link to our custom js ... https://releases.jquery.com/ -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+    <!-- add our custom js file -->
+    <script type="text/javascript" src="./js/autoload.js"></script>
+</head>
+<body>
+    <header id="header"></header>
+    <main>
+        <div class="contact-info-ribbon">
+            <div class="luigi">
+                <img src="./img/luigi_Standing.png" alt="Luigi Standing facing right">
+            </div>
+            <div class="contact-header">
+                <i class="fa-solid fa-phone"></i>
+                <h1>Contact Us</h1>
+                <p>Have a question? We are here to help!</p>
+            </div>
+            <div class="luigi">
+                <img src="./img/luigi_Standing_Flipped.png" alt="Luigi Standing facing left">
+            </div>
+
+        </div>
+        <div class="contact-info-col ">
+            <div>
+                <div>
+                    <i class="fa-solid fa-square-phone"></i>
+                    <h2>Call Us</h2>
+                    <p>1-800-255-3700</p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <div>
+                        <i class="fa-solid fa-envelope"></i>
+                        <h2>Email Us</h2>
+                        <p>Lorem Ipsum@mail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form-text">
+            <h3>Don't feel like using those methods? That's ok!</h3>
+            <p>The best way for you to reach out to us is by our form below.</p>
+            <p>Once you submit our team should reach out within a day or 2  </p>
+        </div>
+        <div>
+            <form method="post">
+                <div class="names">
+                    <input type="text" name="fName" placeholder="First Name">
+                    <input type="text" name="lName" placeholder="Last Name">
+                </div>
+                <div class="email">
+                    <input type="email" name="email" placeholder="Email">
+                </div>
+                <div class="phone">
+                    <input type="tel" name="phone" placeholder="Phone Number">
+                </div>
+                <div class="subject">
+                    <select name="subject">
+                        <option value="department">Department</option>
+                        <option value="sales">Sales</option>
+                        <option value="support">Consoles</option>
+                        <option value="support">Games</option>
+                    </select>
+
+                </div>
+                <div class="reason">
+                    <textarea name="message" placeholder="Reason for contacting"></textarea>
+                </div>
+                <div class="submit-button">
+                    <button type="submit" name="submit">Send Ticket</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer id="footer"></footer>
+</body>
+</html>

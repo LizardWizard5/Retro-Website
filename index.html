@@ -1,0 +1,100 @@
+<!-- Notes
+    - Color scheme is red and white as that is what the actualy nintendo page follows and that is there logo colours
+    -
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head id="meta">
+    <meta name="description" content="The home page of the Nintendo website"> 
+    <title>Nintendo | Home</title>
+
+    <meta name= "viewport" content="width=device-width, initial-scale=1">
+
+     <!-- jQuery link This must be placed before the link to our custom js ... https://releases.jquery.com/ -->
+     <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+     <!-- add our custom js file -->
+     <script type="text/javascript" src="./js/autoload.js"></script>
+     
+     
+</head>
+<body>
+    <header id="header"></header>
+
+<main>
+    <div class="hero">
+        <div>
+            <h1>Our Latest Handheld Console!</h1>
+            <p>We are pleased to introduce the GameBoy!</p>
+        </div>
+        <div>
+            <p>Each gameboy comes with a copy of Super Mario Land <a class="button">Buy Now</a></p>
+        </div>
+    </div>
+    <div class="games">
+        <h2>Our latest games</h2>
+        <div>
+            <div>
+                <p class="game-title">Super Mario Land</p>
+                <img src="./img/marioLand.png" alt="Box image of Super Mario Land">
+                <p class="price">24.99$</p>
+                <p><a class="button" href="#">Buy Now</a></p>
+            </div>
+            <div>
+                <p class="game-title">Alleyway</p>
+                <img src="./img/Alleyway.png" alt="Box image of Alleyway">
+                <p class="price">19.99$</p>
+                <p><a class="button" href="#">Buy Now</a></p>
+            </div>
+            <div>
+                <p class="game-title">Tetris</p>
+                <img src="./img/tetris.png" alt="Box image of Tetris">
+                <p class="price">24.99$</p>
+                <p><a class="button" href="#">Buy Now</a></p>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="sales">
+        <h2>Our Latest Sales</h2>
+        <div class="main-sale">
+            <div>
+                <img src="./img/nes.png" alt="Picture of the Nintendo Entertainment System">
+            </div>
+            <div>
+                <h3>The Nintendo Entertainment System</h3>
+                <p>Home Entertainment Console</p>
+                <p>What's in the box: NES, Remote, power cable, tv cable</p>
+                <p>Price: 199.99$</p>
+                <p><a class="button" href="#">Buy Now</a></p>
+            </div>
+        </div>
+        <div class="games">
+            <div>
+                <div>
+                    <p class="game-title">Super Mario Bros 3</p>
+                    <img src="./img/sm3.png" alt="Box image of Super Mario Bros 3">
+                    <p class="price">20.00$ was 25.00$</p>
+                    <p><a class="button" href="#">Buy Now</a></p>
+                </div>
+                <div>
+                    <p class="game-title">Metroid</p>
+                    <img src="./img/metroid.png" alt="Box image of Metroid">
+                    <p class="price">15.00$ was 20.00$</p>
+                    <p><a class="button" href="#">Buy Now</a></p>
+                </div>
+                <div>
+                    <p class="game-title">Duck Hunt</p>
+                    <img src="./img/duckhunt.png" alt="Box image of Duck Hunt">
+                    <p class="price">24.99$ was 30.00$</p>
+                    <p><a class="button" href="#">Buy Now</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer id="footer"></footer>
+</body>
+</html>
