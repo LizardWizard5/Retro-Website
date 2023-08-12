@@ -1,4 +1,4 @@
-
+//This script allows alternatig mario in the top left from jumping to standing when clicked
 var clicked= false;
 var mario = document.getElementById("mario");
 mario.addEventListener("click", function(){

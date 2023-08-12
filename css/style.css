@@ -281,6 +281,8 @@ form{
     padding: 2vh 2vw;
     border: 10px solid #DC143C;
     border-radius: 10px;
+
+    margin-bottom: 5%;
 }
 
 /*General input styling*/
@@ -464,7 +466,10 @@ form input:focus, form input:active{
     text-align: center;
     
 }
-
+/*Games*/
+.product h3{
+    padding-left: 5%;
+}
 
 /*Footer*/
 footer{
